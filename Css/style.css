@@ -1,0 +1,547 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+
+}
+
+/* Header */
+
+header {
+    background-image: url(banner1.png);
+    background-position: top;
+    margin-top: -25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-top: 55px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.baslik {
+    text-align: center;
+    margin-top: 300px;
+    color: aliceblue;
+}
+
+.headerButton {
+    text-align: center;
+}
+
+.headerButton a {
+    color: aliceblue;
+}
+
+.headerButton button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    font-size: large;
+    padding: 20px 50px;
+    margin: 70px 0;
+    border-radius: 15px;
+}
+
+/* Main */
+
+/* Section 1 bölüm 1 */
+
+main {
+    background-color: #0A092C;
+    margin-top: -22px;
+}
+
+.firstDiv h4 {
+    padding-top: 100px;
+}
+
+.firstDiv {
+    text-align: center;
+}
+
+
+
+.container {
+    display: flex;
+}
+
+
+
+.box1 {
+    padding: 20px 10px;
+    margin: 30px 20px 30px 120px;
+    background-color: #0A1684;
+    color: white;
+    text-align: center;
+}
+
+.box2 {
+    padding: 25px;
+    margin: 30px 10px 30px 5px;
+    background-color: #0A1684;
+    color: white;
+    text-align: center;
+}
+
+.box3 {
+    padding: 25px;
+    margin: 30px 10px 30px 5px;
+    background-color: #0A1684;
+    color: white;
+    text-align: center;
+}
+
+.box4 {
+    padding: 25px;
+    margin: 30px 120px 30px 5px;
+    background-color: #0A1684;
+    color: white;
+    text-align: center;
+}
+
+
+.boxButton {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.boxButton button {
+    text-decoration: none;
+    background-color: gold;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.boxButton a {
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* Section 1 bölüm 2 */
+
+.secondTitle {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.textImg {
+    display: flex;
+}
+
+.secImg {
+    margin: 20px 0 0 150px;
+}
+
+.sec_1_img_golge1 {
+    position: relative;
+    bottom: 4px;
+    left: 20px;
+    background-color: whitesmoke;
+    padding: 0 280px;
+}
+
+.sec_1_img_golge2 {
+    position: relative;
+    bottom: 4px;
+    left: 35px;
+    padding: 0 260px;
+    background-color: #FFFFFF80;
+}
+
+.text {
+    margin: 20px 0 0 -120px;
+    font-size: large;
+}
+
+.secButton {
+    margin: 50px 0 0 210px;
+}
+
+.secButton button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px 50px;
+
+}
+
+.secButton a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* Section 1 bölüm 3 */
+
+.thirdTitle {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.thirdContainer {
+    display: flex;
+
+}
+
+.thirdText {
+    margin: 10px 0 0 150px;
+
+}
+
+.number {
+    font-size: 55px;
+    margin: -50px 0 0 50px;
+    text-shadow: 3px 3px gray;
+}
+
+.thirdImg {
+    margin: 10px 0 0 50px;
+}
+
+.sec_2_img_golge1 {
+    position: relative;
+    bottom: 4px;
+    left: 20px;
+    background-color: whitesmoke;
+    padding: 0 315px;
+}
+
+
+.sec_2_img_golge2 {
+    position: relative;
+    bottom: 4px;
+    left: 35px;
+    background-color: #FFFFFF80;
+    padding: 0 300px;
+}
+
+/* Section 1 bölüm 4 */
+
+
+.fourthText {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.fourthContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fourth_box_text {
+    text-align: center;
+}
+
+.fourth_box_text h1 {
+    font-size: 30px;
+}
+
+.fourth_box_text p {
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box_golge {
+    position: relative;
+    bottom: 150px;
+    left: 35px;
+    background-color: whitesmoke;
+    padding: 0 150px;
+
+}
+
+.box_golge2 {
+    position: relative;
+    bottom: 150px;
+    left: 45px;
+    background-color: #FFFFFF80;
+    padding: 0 140px;
+
+}
+
+.fourth_box_1 {
+    background-color: #0A1259;
+    border-radius: 15px;
+    margin: 50px 15px 150px 15px;
+    padding: 25px;
+}
+
+.fourth_box_2 {
+    background-color: #0A1684;
+    border-radius: 15px;
+    margin: 50px 15px 150px 15px;
+    padding: 25px;
+}
+
+.fourth_box_3 {
+    background-color: #0A1259;
+    border-radius: 15px;
+    margin: 50px 15px 150px 15px;
+    padding: 25px;
+}
+
+.fourthContainer button {
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 20px 50px;
+    margin: 80px 0 0 40px;
+}
+
+.fourthContainer button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.box_2_best {
+    background-color: aliceblue;
+    display: inline;
+    padding: 15px 30px;
+    color: black;
+    border-radius: 5px;
+    position: relative;
+    left: 230px;
+
+}
+
+
+/* Section 2 bölüm 1 */
+
+.secondarySection {
+    background-color: #F5F5F5;
+}
+
+.bolum_baslik {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards_up {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards_down {
+    line-height: 30px;
+}
+
+.card1,
+.card2 {
+    background-color: #FFFFFF;
+    padding: 40px 30px 10px 30px;
+    margin: 70px 25px 100px 25px;
+
+}
+
+/* Section 2 bölüm 2 */
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box_1,
+.box_2,
+.box_3 {
+    background-color: #FFFFFF;
+    margin: 70px 10px;
+    padding-bottom: 50px;
+}
+
+
+.boxes h4 {
+    color: blue;
+}
+
+.boxes a {
+    text-decoration: none;
+    color: #0A092C;
+    font-weight: bold;
+}
+
+.boxes p {
+    color: #888787;
+}
+
+.bolum_2_button {
+    text-align: center;
+
+}
+
+.bolum_2 button {
+    background-color: transparent;
+    border: 1px solid blue;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-bottom: 100px;
+}
+
+.bolum_2 button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Section 2 bölüm 3 */
+
+.bolum_3 {
+    background-image: url(frame2__footer.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 50px 300px 65px 300px;
+
+}
+
+.bolum_3_box {
+    background-color: #0A1259;
+}
+
+.bolum_3_baslik,
+.bolum_3_button {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.bolum_3 button {
+    background-color: gold;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 25px 60px;
+    margin-bottom: 80px;
+}
+
+.bolum_3 button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #0A092C;
+    padding: 50px 0 130px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer input {
+    border-radius: 15px;
+    padding: 16px 40px;
+    font-size: 20px;
+
+}
+
+footer button {
+    position: relative;
+    left: -141px;
+    top: -2px;
+    background-color: blue;
+    padding: 20px 40px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 1px solid white;
+    font-size: 13px;
+}
+
+footer button a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.sec1 {
+    margin: 0 -170px 0 150px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    margin-top: 70px;
+}
+.sec3 a, .sec2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.sec4 img {
+    display: flex;
+    flex-direction: column;
+    font-size: x-small;
+
+}
+
+.sec5 {
+    margin: 60px 0 0 -60px;
+}
+
+.sec5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.sec6 {
+    margin: 50px 0 0 -40px;
+}
+
+.footer_golge1 {
+    background-color: white;
+    padding: 0px 450px;
+    margin: 2px 0 0 10px;
+}
+
+.footer_golge2 {
+    background-color: #FFFFFF80;
+    padding: 0px 430px;
+    margin-left: 30px;
+}
